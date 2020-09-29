@@ -1,0 +1,42 @@
+@import  "./mixin";
+$main-color:#689F38;
+$primary-color:#b71540;
+$text-color:#fff;
+
+
+html{
+    font-size: 62.5%;
+    color: #333;
+   
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a,a:hover{
+    text-decoration: none;
+}
+// header part start
+@import "./layout/header";
+   
+// about part
+@import "./layout/about";
+
+// offer-wrapper start
+@import "./layout/food-offer";
+
+// food menu start
+@import "./layout/menu";
+
+// testimonial
+
+@import "./layout/testimonial";
+
+// footer
+@import "./layout/footer";
+

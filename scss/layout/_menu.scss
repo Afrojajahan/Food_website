@@ -1,0 +1,25 @@
+.menu-part{
+   
+    & h3{
+        font-size: 30px;
+        color: black;
+        margin-bottom:20px ;
+    }
+     & .br-part ul{
+        margin-left: -40px;
+    }
+    & .menu{
+    list-style: none;
+    
+}
+    & .menu_item{
+        color: #717171;
+        line-height: 50px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        & .menu_price{
+            color: $main-color;
+        }
+    }
+}

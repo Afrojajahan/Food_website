@@ -1,0 +1,46 @@
+.offer-wrapper{
+    background:url(../img/offer.png) ;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+
+    & .food-offer{
+         @include positioneffect;
+    }
+    & h2{
+        color: $text-color;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    & p{
+        line-height: 26px;
+        color: $text-color;
+        font-size: 15px;
+    }
+    & .offer-btn {
+        position: absolute;
+        left: 30%;
+        width: 140px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 15px;
+        border-radius: 57px;
+        background:$text-color ;
+        color: $main-color;
+        text-align: center;
+        padding: 10px 0px;
+        border: none;
+        transition: 0.4s all;
+
+         @media screen and (max-width:575px){
+             left: 10%;}
+         @media screen and (max-width:992px){
+             left: 20%;}
+        
+
+    &:hover {
+        background-color: $main-color;
+        color: #fff;
+    }
+    }
+}
